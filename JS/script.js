@@ -1,0 +1,13 @@
+    $('.nav-toggle').on('click',function()
+  {
+    $('#menu').toggleClass('activee');
+    $('#submenu1').removeClass('activee');
+    $('#menu').removeClass('actives');
+    $('#menu').removeClass('active');
+    $('#ham').removeClass('active');
+  });
+    $('#language1').on('click',function()
+  {
+    $('#submenu1').toggleClass('activee');
+    $('#menu').toggleClass('actives');
+  });
